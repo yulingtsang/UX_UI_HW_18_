@@ -1,3 +1,16 @@
+
+
+/* Media query for mobile devices */
+@media screen and (max-width: 600px) {
+.flexContainer{column-width: 100%;}
+  body {
+    font-size: 14px; /* Example: Decrease font size for better readability on smaller screens */
+    /* Add other styles for mobile devices here */
+  }
+}
+
+
+
 body {
     margin: 0;
   }
@@ -54,7 +67,7 @@ body {
   }
   /* My UX Skills Section */
   .flexContainer {
-    display: flex;
+    display: flex; justify-content: space-between;
     padding: 60px 30px;
   }
   .flexContainer div {
@@ -105,3 +118,4 @@ body {
   .content3 {
     grid-area: content3;
   }
+  
